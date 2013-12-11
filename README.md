@@ -22,6 +22,16 @@ TeXファイルの文字コードは、UTF-8。LaTeXのバージョンはLaTeX2e
 - CheckListForTheses-ja.{tex, pdf}: 卒業論文・修士論文のための自己チェックリスト
 - CheckListForPapers-ja.{tex, pdf}: 英語論文のための自己チェックリスト
 
+## ファイル取得方法
+
+### PDFファイルのダウンロード
+
+上にあるファイル名一覧から欲しいファイル名にあるリンクをクリックし、開いたページにある「View Raw」というリンクをクリックする。するとダウンロードが始まる。
+
+### リポジトリのダウンロード
+
+[Gitを使った卒論生のためのバックアップ講座](http://www.aise.ics.saitama-u.ac.jp/~gotoh/HowToBackUpByGit.html)を参考にGitを利用できる環境を整えたのちに git://github.com/yuichigoto/checklists からリポジトリをクローン（取得）する。
+
 ## 関連情報
 
 Linux環境の構築については[Ubuntuで作業環境を整えよう](http://www.aise.ics.saitama-u.ac.jp/~gotoh/HowToUbuntu.html)にまとめてある。LaTeXのコンパイル環境については、[論文執筆環境をUbuntu上に整える](http://www.aise.ics.saitama-u.ac.jp/~gotoh/WritingEnvironmentOnUbuntu.html)にまとめてある。
