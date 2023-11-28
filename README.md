@@ -17,21 +17,34 @@ checklists
 
 ## ファイル構成
 
-TeXファイルの文字コードは、UTF-8。LaTeXのバージョンはLaTeX2eである。
+TeXファイルの文字コードは、UTF-8。LaTeXのバージョンはTeX Live 2022で動作確認をしている。
 
-- CheckListForTheses-ja.{tex, pdf}: 卒業論文・修士論文のための自己チェックリスト
+```
+.
+├── CheckListForPapers-ja.pdf
+├── CheckListForPapers-ja.tex
+├── CheckListForTheses-ja.pdf
+├── CheckListForTheses-ja.tex
+├── MiniCheckList-ja.pdf
+├── MiniCheckList-ja.tex
+└── README.md
+```
 - CheckListForPapers-ja.{tex, pdf}: 英語論文のための自己チェックリスト
+- CheckListForTheses-ja.{tex, pdf}: 卒業論文・修士論文のための自己チェックリスト
+- MiniCheckList-ja.{tex, pdf}: 卒業論文・修士論文のための自己チェックリスト（簡略版）
 
 ## ファイル取得方法
 
-### PDFファイルのダウンロード
+### Webページからのダウンロード
 
-上にあるファイル名一覧から欲しいファイル名にあるリンクをクリックし、開いたページにある「View Raw」というリンクをクリックする。するとダウンロードが始まる。
+https://github.com/yuichigoto/checklists を開き、右側にある「Download ZIP」というボタンをクリックしてダウンロードしてください。
 
 ### リポジトリのダウンロード
 
-[Gitを使った卒論生のためのバックアップ講座](http://www.aise.ics.saitama-u.ac.jp/~gotoh/HowToBackUpByGit.html)を参考にGitを利用できる環境を整えたのちに git://github.com/yuichigoto/checklists からリポジトリをクローン（取得）する。
+[Gitを使った卒論生のためのバックアップ講座](http://www.aise.ics.saitama-u.ac.jp/~gotoh/HowToBackUpByGit.html)を参考にGitを利用できる環境を整えたのちに https://github.com/yuichigoto/checklists.git からリポジトリをクローン（取得）してください。
 
 ## 関連情報
 
-Linux環境の構築については[Ubuntuで作業環境を整えよう](http://www.aise.ics.saitama-u.ac.jp/~gotoh/HowToUbuntu.html)にまとめてある。LaTeXのコンパイル環境については、[論文執筆環境をUbuntu上に整える](http://www.aise.ics.saitama-u.ac.jp/~gotoh/WritingEnvironmentOnUbuntu.html)にまとめてある。
+Linux環境の構築については[後藤祐一のWebサイト](https://www.aise.ics.saitama-u.ac.jp/~gotoh/FrontPage.html)からWindows Subsystem for Linux (WSL) 上にUbuntuをインストールして構築する方法とmacOS上にHomebrewをインストールして構築する方法が記載されているのでそちらを参照のこと。
+
+埼玉大学工学部情報工学科LaTeX用学位論文テンプレート（非公式）は https://github.com/yuichigoto/tex-template-ics から入手できる。
